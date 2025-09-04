@@ -1,0 +1,8 @@
+:root { --maxw: 1000px; }
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; line-height: 1.6; }
+header, nav, main, aside, footer { padding: 16px; max-width: var(--maxw); margin: 0 auto; }
+header { background:#f3f6ff; border-bottom:1px solid #e1e6f5; }
+nav a { margin-right:12px; text-decoration:none; color:#0a4; }
+main img, main video { display:block; margin:8px 0; max-width:100%; height:auto; }
+footer { margin-top:24px; background:#fafafa; border-top:1px solid #eee; text-align:center; }
